@@ -14,10 +14,7 @@ end
 
 def words_five_letters_long(text)
   new_array = text.scan(/\b\S{5}\b/)
-
   new_array
-
-
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
